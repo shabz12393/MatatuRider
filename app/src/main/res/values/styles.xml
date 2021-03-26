@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/matatu_dark_blue</item>
+        <item name="colorPrimaryDark">@color/matatu_light_blue</item>
+        <item name="colorAccent">@color/matatu_blue</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/matatu_dark_blue</item>
+        <item name="colorSecondary">@color/matatu_blue</item>
+    </style>
+</resources>
